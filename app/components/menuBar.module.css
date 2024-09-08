@@ -1,0 +1,6 @@
+.facetsContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 0;
+    justify-content: space-between;
+}

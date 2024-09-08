@@ -1,0 +1,18 @@
+.jerAddToCartButton {
+    background-color: rgb(246, 105, 81);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    font-weight: normal;
+    width: 262px;
+    height: 42px;
+    line-height: 1.28;
+    letter-spacing: 0.09px;
+}
+
+.jerAddToCartButton:hover {
+    cursor: pointer;
+    background-color: rgb(243, 63, 33);
+}

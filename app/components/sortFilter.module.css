@@ -1,0 +1,36 @@
+.facetFilters__field {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+.facetFilters__label {
+    display: block;
+    color: var(--color-foreground-85);
+    font-size: 1rem;
+    margin: 0 2rem 0 0;
+}
+.facets {
+    display: block;
+    grid-column-start: span 2;
+}
+.facetFilters__sort {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    font-size: 1rem;
+    height: auto;
+    line-height: calc(1 + .5 / var(--font-body-scale));
+    margin: 0;
+    padding-left: 0;
+    padding-right: 1.75rem;
+
+    border-radius: 0;
+        min-width: auto;
+        min-height: auto;
+        transition: none;
+}
+.facetFilters__sort:hover {
+    box-shadow: none;
+    filter: none;
+}
