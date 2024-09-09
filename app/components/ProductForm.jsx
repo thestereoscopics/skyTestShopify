@@ -45,7 +45,7 @@ export function ProductForm({product, selectedVariant, variants}) {
       {selectedVariant?.availableForSale && (
         <AddVariantQuantity1
           variantId={selectedVariant.id}
-          storeDomain="skyjertest.myshopify.com"
+          storeDomain="https://skyjertest.myshopify.com/"
           className={shopPayButtonStyles.shopPayButton}
         />
       )}

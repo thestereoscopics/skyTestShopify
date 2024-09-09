@@ -1,6 +1,7 @@
 import {ShopPayButton} from '@shopify/hydrogen';
 
 export function AddVariantQuantity1({variantId, storeDomain, className}) {
+  console.log(variantId, storeDomain);
   return (
     <ShopPayButton
       variantIds={[variantId]}
